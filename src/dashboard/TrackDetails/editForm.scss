@@ -1,0 +1,50 @@
+.form__group {
+  margin-bottom: 1.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #333;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    transition: border-color 0.2s ease-in-out;
+
+    &:focus {
+      outline: none;
+      border-color: #333;
+    }
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #333;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+}

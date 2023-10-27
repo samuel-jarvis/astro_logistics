@@ -1,0 +1,65 @@
+@import "../sass/_variables.scss";
+@import "../sass/_mixin.scss";
+
+.general_track {
+  color:rgb(19, 18, 17);
+  margin: 0rem auto;
+  font-weight: 400;
+
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+
+  .track-id-heading {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .tracking-infos {
+    margin-bottom: 2rem;
+  }
+
+  .tracking-infos.basic_info{
+    background-color: rgb(250, 249, 245);
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  
+  .location_history{
+    font-size: .8rem;
+    .dot {
+      font-size: 1rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+      margin-top: 2rem;
+    }
+
+    .location {
+      display: flex;
+      font-size: .9rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      color:rgb(36, 35, 33);
+      margin-left: 1rem;
+    } 
+  }
+
+  
+
+}
+
+.breadcrumb-option {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}

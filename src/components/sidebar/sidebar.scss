@@ -1,0 +1,64 @@
+.sidebar {
+  background-color: #fff;
+  height: 100%;
+  width: 20rem;
+  position: fixed;
+  z-index: 11;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-top: 10rem;
+
+  display: none;
+
+  @media (max-width: 968px) {
+    display: block;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+
+  .sideNav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 10px 0;
+
+      a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 0.3s;
+
+        &:hover {
+          color: #f44336;
+        }
+      }
+    }
+  }
+}

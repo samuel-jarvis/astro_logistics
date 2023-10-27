@@ -1,0 +1,36 @@
+@import "../../sass/_variables.scss";
+@import "../../sass/_mixin.scss";
+
+.contact-list {
+  background-color: whitesmoke;
+  padding: 5rem 20px;
+
+  .head {
+    text-align: center;
+  }
+
+
+
+  .contact {
+    padding: 1rem 2rem;
+    border: 1px solid bisque;
+    box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 1rem auto;
+    position: relative;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  .delete-icon {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+}
