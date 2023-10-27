@@ -79,7 +79,7 @@ const Home = () => {
               <div className="hero__text">
                 <span className="hero__label">ASTRO LOGISTICS</span>
                 <h2>
-                  Leading logistics and industrial waste management company.
+                Express Shipping & Cargo Solution
                 </h2>
                 <Link to="/services" className="primary-btn">
                   <span>View services</span>

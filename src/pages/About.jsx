@@ -34,10 +34,7 @@ const About = () => {
             <div className="col-lg-5 offset-lg-2">
               <div className="about__company__title">
                 <p>
-                  Transport offers a host of logistic management services and
-                  supply chain solutions. We provide innovative solutions with
-                  the best people, processes, and technology to drive uncommon
-                  value for your company.
+                We are a freight forwarding and logistics company with deep competencies in Air cargo Freight , Ocean Freight, DHL Express Discounts Service, E-commerce Logistics, Import and Export documentation, door delivery and pick-up services, Customs clearing and warehousing.
                 </p>
               </div>
             </div>
@@ -189,7 +186,7 @@ const About = () => {
                 <h2>History</h2>
                 <p>
                   Founded in 2009 with the goal of providing innovative,
-                  sustainable solutions for waste management and logistics.
+                  sustainable solutions for freight and logistics.
                   Since then, we have grown to become a leading provider of
                   comprehensive services for a wide range of industries.
                 </p>
@@ -200,7 +197,7 @@ const About = () => {
                 <span>2</span>
                 <h2>Mission</h2>
                 <p>
-                  To provide sustainable waste management solutions that meet
+                  To provide sustainable freight and logistics solutions that meet
                   the unique needs of our clients. We are committed to
                   delivering exceptional service, protecting the environment,
                   and ensuring compliance with all applicable regulations.

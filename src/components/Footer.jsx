@@ -21,8 +21,7 @@ const Footer = () => {
                 </Link>
               </div>
               <p>
-                Welcome to Astro Logistics, a leading logistics and
-                industrial waste management company. Our mission is to provide
+                Welcome to Astro Logistics, Express Shipping & Cargo Solution. Our mission is to provide
                 innovative, sustainable solutions for your waste management
                 needs.
               </p>
