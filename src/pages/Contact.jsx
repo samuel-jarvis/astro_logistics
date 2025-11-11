@@ -112,9 +112,9 @@ const Contact = () => {
                       <h6>Email Address</h6>
                       <a
                         className="emailLink"
-                        href="mailto:support@astrologistics.delivery"
+                        href="mailto:support@astrologixticssolutions.co"
                       >
-                        support@astrologistics.delivery
+                        support@astrologixticssolutions.co
                       </a>
                     </div>
                   </li>

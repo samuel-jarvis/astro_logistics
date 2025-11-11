@@ -14,10 +14,10 @@ const Footer = () => {
             <div className="footer__about">
               <div className="footer__logo">
                 <Link to="/">
-                <p>
-                  <span style={{ color: "#fb5521", fontSize: '2rem', fontWeight: 'bold' }}>Astro</span>
-                  <span style={{ color: "white", fontSize: '2rem', fontWeight: 'bold' }}>Logistics</span>
-                </p>
+                  <p>
+                    <span style={{ color: "#fb5521", fontSize: '2rem', fontWeight: 'bold' }}>Astro</span>
+                    <span style={{ color: "white", fontSize: '2rem', fontWeight: 'bold' }}>Logistics</span>
+                  </p>
                 </Link>
               </div>
               <p>
@@ -95,13 +95,13 @@ const Footer = () => {
                 </li>
                 {/* <li>
                   <span className="icon_mail"></span>
-                  support@astrologistics.delivery
+                  support@astrologixticssolutions.co
                 </li> */}
                 {/* make link mailto */}
                 <li>
                   <span className="icon_mail"></span>
-                  <a href="mailto:support@astrologistics.delivery">
-                    support@astrologistics.delivery
+                  <a href="mailto:support@astrologixticssolutions.co">
+                    support@astrologixticssolutions.co
                   </a>
                 </li>
               </ul>
